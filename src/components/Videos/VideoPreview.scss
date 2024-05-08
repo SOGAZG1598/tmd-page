@@ -1,0 +1,170 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.episode-preview-container {
+    position: relative;
+    width: 100%;
+    margin-left: 8px;
+    
+  }
+  
+  .background-image {
+    position: relative;
+    width: 100%;
+    max-width: 2000px;
+    height: 800px; /* Adjust the height based on your design */
+    background-position: center;
+    margin-left: 70px;
+    background-repeat: no-repeat;
+    background-size:     cover;  
+    animation: fadeIn 2s;
+  }
+
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent);
+  }
+  
+  .content {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #ffffff;
+    width: 100%;
+  }
+  
+  .series-logo {
+    height: 160px; /* Adjust the logo size */
+    margin-right: 10px;
+    margin-top: 300px;
+  }
+  
+  .title {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 16px;
+    
+  }
+  
+  .play-button {
+    display: flex;
+    align-items: center;
+    background-color: #e50914;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .play-button:hover {
+    background-color: #d30c11;
+  }
+  
+  .play-icon {
+    margin-right: 10px;
+  }
+
+  @media only screen and (max-width: 430px) {
+    .background-image {
+      position: relative;
+      width: 100%;
+      height: 100%; /* Adjust the height based on your design */
+      background-position: center;
+      margin-left: 0px;
+      background-repeat: no-repeat;
+      background-size:     cover;  
+      animation: fadeIn 2s;
+    }
+  
+    .content {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 14px; /* Adjust based on your design */
+    }
+  
+    .series-logo {
+      height: 50px; /* Adjust based on your design */
+      margin-top: 0px;
+    }
+  
+    .title {
+      font-size: 24px; /* Adjust based on your design */
+    }
+  
+    .description {
+      font-size: 12px; /* Adjust based on your design */
+    }
+  }
+
+  @media screen and (min-width:431px) and (max-width:1280px){
+    
+    .background-image {
+      position: relative;
+      width: 100%;
+      height: 100%; /* Adjust the height based on your design */
+      background-position: center;
+      margin-left: 0px;
+      margin-top: 20px;
+      background-repeat: no-repeat;
+      background-size:     cover;  
+      animation: fadeIn 2s;
+    }
+  
+    .content {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 14px; /* Adjust based on your design */
+    }
+  
+    .series-logo {
+      height: 50px; /* Adjust based on your design */
+      margin-top: 0px;
+    }
+  
+    .title {
+      font-size: 24px; /* Adjust based on your design */
+    }
+  
+    .description {
+      font-size: 12px; /* Adjust based on your design */
+    }
+  }

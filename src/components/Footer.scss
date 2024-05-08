@@ -1,0 +1,104 @@
+/* Footer.css */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7); /* Black with 70% opacity */
+  color: #fff; /* White text color */
+  padding: 20px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1; /* Ensure it's above other elements */
+}
+
+  .footer-column img {
+    max-height: 120px;
+  }
+
+  .footer-column2 img {
+    max-height: 40px;
+    cursor: pointer; /* Add pointer cursor for clickable images */
+    margin-right: 30px; /* Add margin to create gap between images */
+  }
+  
+  .footer-column p a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .paypal-button {
+    background-color: #0070ba;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+
+  @media screen and (max-width:430px){
+    .footer {
+        flex-direction: column; /* Stack columns on top of each other */
+        align-items: center; /* Center content horizontally */
+        padding: 10px; /* Smaller padding for mobile */
+        position: static; /* Remove fixed positioning */
+    }
+
+    .footer-column img {
+        max-height: 45px; /* Adjust image height for mobile */
+    }
+
+    .footer-column2 img {
+        max-height: 30px; /* Adjust image height for mobile */
+        margin-right: 30px; /* Add margin to create gap between images */
+    }
+
+    .FB {
+        margin-left: 23px;
+    }
+
+    .paypal-button {
+        font-size: 14px; /* Adjust button font size for mobile */
+    }
+
+    .footer-column2 p {
+        text-align: center;
+        font-weight: bold;
+    }
+}
+
+
+  @media screen and (min-width:431px) and (max-width:1440px){
+    .footer {
+        flex-direction: column; /* Stack columns on top of each other */
+        align-items: center; /* Center content horizontally */
+        padding: 10px; /* Smaller padding for mobile */
+        position: static; /* Remove fixed positioning */
+    }
+
+    .footer-column img {
+        max-height: 45px; /* Adjust image height for mobile */
+    }
+
+    .footer-column2 img {
+        max-height: 30px; /* Adjust image height for mobile */
+        margin-right: 30px; /* Add margin to create gap between images */
+    }
+
+    .FB {
+        margin-left: 23px;
+    }
+
+    .paypal-button {
+        font-size: 14px; /* Adjust button font size for mobile */
+    }
+
+    .footer-column2 p {
+        text-align: center;
+        font-weight: bold;
+    }
+}

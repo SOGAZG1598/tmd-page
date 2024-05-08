@@ -1,0 +1,63 @@
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .logo-link {
+    display: block;
+    position: relative;
+    margin: 10px;
+    transition: transform 0.2s ease;
+  }
+  
+  .logo-link:hover {
+    transform: scale(1.05); /* Enlarge on hover */
+  }
+  
+  .logo {
+    width: 800px;
+    height: 800px;
+    /* Add any other styling you need for the logos */
+  }
+
+  @media screen and (max-width:1430px) {
+    .logo-container {
+        display: flex;
+        flex-direction: column; /* Stack images vertically */
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+      
+      .logo-link {
+        display: block;
+        position: relative;
+        margin: 10px;
+        transition: transform 0.2s ease;
+        width: 100%; /* Take up full width */
+        text-align: center; /* Center the image horizontally */
+        filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.8)); /* Add a subtle glow */
+      }
+      
+      .logo-link:hover {
+        transform: scale(1.05); /* Enlarge on hover */
+        filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)); /* Increase glow on hover */
+      }
+      
+      .logo {
+        width: 100%; /* Take up full width */
+        max-width: 2000px; /* Limit maximum size if needed */
+        height: auto; /* Maintain aspect ratio */
+        /* Add any other styling you need for the logos */
+      }
+      
+      .diagonal-line {
+        display: none; /* Hide the diagonal line in mobile view */
+      }
+  }
+
+  @media screen and (min-width:431px) and (max-width:1280px){
+    
+}

@@ -1,0 +1,104 @@
+/* EpisodeList.css */
+
+  .episode-list {
+    /* Add your desired styles for the entire episode list container */
+  }
+  
+  .episode-list-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    margin-left: 20px;
+    color: white;
+    /* Customize title styling */
+  }
+  
+  .episode-thumbnails {
+    display: flex;
+    overflow-x: hidden; /* Hide the horizontal scrollbar */
+    /* Other styles remain the same */
+    overflow-y: hidden;
+  }
+  
+  .episode-thumbnail {
+    flex: 0 0 auto;
+    margin-right: 1rem;
+    transition: transform 0.2s ease;
+    cursor: pointer;
+    /* Customize individual episode thumbnail styling */
+  }
+
+
+  .episode-thumbnail:hover {
+    transform: scale(1.05); /* Slightly enlarge the thumbnail on hover */
+  }
+  
+  .episode-thumbnail img {
+    width: 400px; /* Increase the width as desired */
+    height: 200px;
+    object-fit: cover;
+    /* Customize thumbnail image styling */
+  }
+  
+  .episode-title {
+    font-size: 0.8rem;
+    color: white;
+    /* Customize episode title styling */
+  }
+
+  .scroll-button {
+    position: relative;
+    top: -200px;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    z-index: 2;
+  }
+  
+  .left {
+    left: 0;
+    margin-right: 3%;
+  }
+  
+  .right {
+    right: 0;
+    margin-left: 91%;
+    margin-top: -7%;
+  }
+
+  .scroll-button img {
+    width: 40px; /* Set the desired width */
+    height: 60px; /* Set the desired height */
+  }
+
+  .scroll-button:hover {
+    transform: scale(1.1);
+  }
+
+  @media screen and (max-width:430px) {
+    .episode-thumbnails {
+      display: flex;
+      overflow-x: scroll; /* Enable horizontal scrolling */
+      overflow-y: hidden;
+      /* Other styles remain the same */
+    }
+
+    .scroll-button {
+      display: none;
+    }
+
+  }
+
+  @media screen and (min-width:431px) and (max-width:1700px){
+    .episode-thumbnails {
+      display: flex;
+      overflow-x: scroll; /* Enable horizontal scrolling */
+      overflow-y: hidden;
+      /* Other styles remain the same */
+    }
+
+    .scroll-button {
+      display: none;
+    }
+  }

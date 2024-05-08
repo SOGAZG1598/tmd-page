@@ -1,0 +1,20 @@
+/* Set the width of the scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Customize the scrollbar handle (thumb) */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(150, 150, 150);
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Change the scrollbar handle color on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(131, 131, 131);
+  }
+  
+  /* Change the scrollbar handle color when clicked */
+  ::-webkit-scrollbar-thumb:active {
+    background: rgb(104, 104, 104);
+  }

@@ -1,0 +1,42 @@
+/* HomePage.css */
+
+/* Apply styles to the entire home page */
+.home-page {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Set the height to cover the entire viewport */
+    overflow: hidden; /* Hide any overflowing content */
+  }
+  
+  /* Style the video background */
+  .video-background {
+    margin-top: 80px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the video covers the entire container */
+    filter: blur(10px); /* Apply a blur effect to the video */
+  }
+  
+  /* Centered greeting text */
+  .greeting-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .greeting-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .greeting-text p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
