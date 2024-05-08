@@ -10,7 +10,7 @@ const VideoPreview = ({ episodes }) => {
     // Select a random episode
     const randomEpisode = episodes[Math.floor(Math.random() * episodes.length)];
     setEpisodeData(randomEpisode);
-  }, []);
+  }, [episodes]);
 
   if (!episodeData) {
     return <div>Loading...</div>;
