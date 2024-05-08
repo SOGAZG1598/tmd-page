@@ -52,11 +52,11 @@ const Navbar = () => {
     <nav class="nav">
       <a class="nav-item" href="/">Home</a>
       <a class="nav-item" href="/news">News</a>
-      <a class="nav-item" href="/channels">Channels</a>
-      <a class="nav-item" href="/videos">???</a>
-      <a class="nav-item" href="wiki">???</a>
+      <a class="nav-item" href="/channels">Canales</a>
+      <a class="nav-item" href="/videos">Videos</a>
+      <a class="nav-item" href="wiki">Personajes</a>
       <a class="nav-item" href="store">???</a>
-      <a class="nav-item" href="socialmedia">Social Media</a>
+      <a class="nav-item" href="socialmedia">Redes Sociales</a>
     </nav>
 
     <section class="dummy-content">
