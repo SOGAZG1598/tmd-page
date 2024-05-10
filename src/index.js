@@ -21,6 +21,8 @@ import Lost from "./data/lost.js";
 import Trailers from "./data/trailers.js";
 import Jueguemos from "./data/Jueguemos.js";
 import Extras from "./data/extra.js";
+import New from "./data/New.js";
+import Next from "./data/Next.js";
 
 
 const rootElement = document.getElementById("root");
@@ -45,6 +47,8 @@ ReactDOM.render(
       <Route path="/videos/Extra/:episodeId" element={<VideoPlayer episodesData={Extras} />} />
       <Route path="/videos/Lost/:episodeId" element={<VideoPlayer episodesData={Lost} />} />
       <Route path="/videos/Trailers/:episodeId" element={<VideoPlayer episodesData={Trailers} />} />
+      <Route path="/videos/New/:episodeId" element={<VideoPlayer episodesData={New} />} />
+      <Route path="/videos/Next/:episodeId" element={<VideoPlayer episodesData={Next} />} />
       <Route path="/videos/:episodeId" element={<VideoPlayer episodesData={episodes} />} />
       <Route path="/videos/-1" element={<Home />} />
     </Routes>
