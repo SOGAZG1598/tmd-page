@@ -15,12 +15,18 @@ import Extras from '../data/extra';
 import Lost from '../data/lost';
 import Trailers from '../data/trailers';
 import './Scroll.css'
+import New from '../data/New';
+import Next from '../data/Next';
 
 const Videos = () => {
     return(
         <div>
             <Navbar />
             <VideoPreview episodes={ episodes }/>
+            <h2 className="episode-list-title">Nuevos Videos</h2>
+            <EpisodeList episodes={ New } />
+            <h2 className="episode-list-title">Proximamente</h2>
+            <EpisodeList episodes={ Next } />
             <h2 className="episode-list-title">Dúper Mario Bros</h2>
             <EpisodeList episodes={ DMB } />
             <h2 className="episode-list-title">LegoBob</h2>
