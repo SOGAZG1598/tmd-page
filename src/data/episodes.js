@@ -155,6 +155,8 @@ import DMBPT3 from '../assets/images/preview/DMBPT3.png'
 import DMB85T from '../assets/images/thumbnails/DMB85T.png'
 import DMB105T from '../assets/images/thumbnails/DMB105T.jpg'
 import PD6T from '../assets/images/thumbnails/PD6T.jpg'
+import PD7 from '../assets/images/thumbnails/PD7.png'
+import PDP7 from '../assets/images/preview/PDP7.png'
 import Creepy5T from '../assets/images/thumbnails/Creepy5T.jpg'
 
 
@@ -686,6 +688,16 @@ const episodes = [
         thumbnailUrl: PD6,
         webUrl: 'https://www.youtube.com/embed/ZpcBKT_tisE', // Add the episode URL
         backgroundImage: PDP6,
+        seriesLogo: PDLogo,
+        description: 'Visuales (Ezlo):  @TomySiete',
+      },
+      {
+        id: 7,
+        section: 'PD',
+        title: 'Preguntas Dimensionales #7',
+        thumbnailUrl: PD7,
+        webUrl: 'https://www.youtube.com/embed/NNqKGVbn2B8', // Add the episode URL
+        backgroundImage: PDP7,
         seriesLogo: PDLogo,
         description: 'Visuales (Ezlo):  @TomySiete',
       },

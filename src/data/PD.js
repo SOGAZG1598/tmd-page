@@ -10,7 +10,8 @@ import PDP3 from '../assets/images/preview/PDP3.png'
 import PDP4 from '../assets/images/preview/PDP4.png'
 import PDP5 from '../assets/images/preview/PDP5.png'
 import PDP6 from '../assets/images/preview/PDP6.png'
-
+import PD7 from '../assets/images/thumbnails/PD7.png'
+import PDP7 from '../assets/images/preview/PDP7.png'
 import PDLogo from '../assets/images/logo/LogoPD.png'
 
 const PD = [
@@ -71,6 +72,16 @@ const PD = [
     thumbnailUrl: PD6,
     webUrl: 'https://www.youtube.com/embed/ZpcBKT_tisE', // Add the episode URL
     backgroundImage: PDP6,
+    seriesLogo: PDLogo,
+    description: 'Visuales (Ezlo):  @TomySiete',
+  },
+  {
+    id: 7,
+    section: 'PD',
+    title: 'Preguntas Dimensionales #7',
+    thumbnailUrl: PD7,
+    webUrl: 'https://www.youtube.com/embed/NNqKGVbn2B8', // Add the episode URL
+    backgroundImage: PDP7,
     seriesLogo: PDLogo,
     description: 'Visuales (Ezlo):  @TomySiete',
   },
