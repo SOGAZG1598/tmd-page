@@ -6,7 +6,7 @@ import PDLogo from '../assets/images/logo/LogoPD.png'
 const New = [
   {
     id: 1,
-    section: 'PD',
+    section: 'New',
     title: 'Preguntas Dimensionales #7',
     thumbnailUrl: PD7,
     webUrl: 'https://www.youtube.com/embed/NNqKGVbn2B8', // Add the episode URL
