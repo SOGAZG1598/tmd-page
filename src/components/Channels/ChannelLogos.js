@@ -13,7 +13,7 @@ const LogoComponent = () => {
             className="logo"
           />
         </a>
-        <a href="https://www.youtube.com/@TheMarioDimension2" className="logo-link" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.youtube.com/@TMD2.0" className="logo-link" target="_blank" rel="noopener noreferrer">
           <img
             src={tmd2logo}
             alt="Logo 2"
