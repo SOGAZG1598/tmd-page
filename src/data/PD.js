@@ -20,7 +20,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #1',
     thumbnailUrl: PD1,
-    webUrl: 'https://www.youtube.com/embed/E69nkL_ZcHs', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/5uZgIUZChFU', // Add the episode URL
     backgroundImage: PDP1,
     seriesLogo: PDLogo,
     description: 'Dejen todas sus preguntas en los comentarios. EL TIEMPO PARA ENVÍAR PREGUNTAS HA TERMINADO.',
@@ -30,7 +30,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #2',
     thumbnailUrl: PD2,
-    webUrl: 'https://www.youtube.com/embed/vpSBfJOlPLs', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/g--tjNDJmbs', // Add the episode URL
     backgroundImage: PDP2,
     seriesLogo: PDLogo,
     description: 'No olviden hacer TODAS LAS PREGUNTAS que se les antoje, adelante, recuerden, tienen 1 mes. EL TIEMPO PARA ENVÍAR PREGUNTAS HA TERMINADO.',
@@ -40,7 +40,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #3',
     thumbnailUrl: PD3,
-    webUrl: 'https://www.youtube.com/embed/_-oyOxnP_wg', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/3BO5Ee0sKHw', // Add the episode URL
     backgroundImage: PDP3,
     seriesLogo: PDLogo,
     description: 'Favor de ver el video completo antes de hacer sus preguntas nuevas. Si usted se sintió ofendido con este video le pido una disculpa, mi única intención es hacerle reir y entretenerle. EL TIEMPO PARA ENVÍAR PREGUNTAS HA TERMINADO.',
@@ -50,7 +50,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #4',
     thumbnailUrl: PD4,
-    webUrl: 'https://www.youtube.com/embed/BtvfCnNGeu0', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/U4TSNXVFTV8', // Add the episode URL
     backgroundImage: PDP4,
     seriesLogo: PDLogo,
     description: 'Disculpen la tardanza pero finalmente aquí está la cuarta parte!! Disfrutenlo :] Y no olviden enviar sus preguntas, recuerden que tienen tiempo hasta que yo les avise, pero les aseguro que es más de 1 mes, aún así, no vayan a enviar sus preguntas hasta el final... quiero preguntas.... ahora...... .___. Okno XD',
@@ -60,7 +60,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #5',
     thumbnailUrl: PD5,
-    webUrl: 'https://www.youtube.com/embed/FuR-dqSdLko', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/nVe5K57x764', // Add the episode URL
     backgroundImage: PDP5,
     seriesLogo: PDLogo,
     description: 'Link y Ezlo regresan con nuevas preguntas!',
@@ -70,7 +70,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #6',
     thumbnailUrl: PD6,
-    webUrl: 'https://www.youtube.com/embed/ZpcBKT_tisE', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/RTdchjQHDnA', // Add the episode URL
     backgroundImage: PDP6,
     seriesLogo: PDLogo,
     description: 'Visuales (Ezlo):  @TomySiete',
@@ -80,7 +80,7 @@ const PD = [
     section: 'PD',
     title: 'Preguntas Dimensionales #7',
     thumbnailUrl: PD7,
-    webUrl: 'https://www.youtube.com/embed/NNqKGVbn2B8', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/TMSK82x_cHU', // Add the episode URL
     backgroundImage: PDP7,
     seriesLogo: PDLogo,
     description: 'Visuales (Ezlo):  @TomySiete',
