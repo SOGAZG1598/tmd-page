@@ -58,7 +58,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 1 - Canto Mortal',
     thumbnailUrl: LB1,
-    webUrl: 'https://www.youtube.com/embed/-2qNI84dqqQ', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/fl9w1Q7qwJk', // Add the episode URL
     backgroundImage: LBP1,
     seriesLogo: LBLogo,
     description: '',
@@ -68,7 +68,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 2 - Atropellado',
     thumbnailUrl: LB2,
-    webUrl: 'https://www.youtube.com/embed/PkIP9VdQ-4U', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/Wx_NMsWMVg0', // Add the episode URL
     backgroundImage: LBP2,
     seriesLogo: LBLogo,
     description: '',
@@ -78,7 +78,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 3 - Burro y el Lego Espía',
     thumbnailUrl: LB3,
-    webUrl: 'https://www.youtube.com/embed/hn70ltmW7xk', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/5UXh4G-HDQQ', // Add the episode URL
     backgroundImage: LBP3,
     seriesLogo: LBLogo,
     description: 'Este es un Remake de el viejo video Legobob EP 3 - El misterio de Igor. Para decirles las verdad : Para mi era muy embarasoso el video Legobob EP 3 - El misterio de Igor, ya que en mi opinion me había quedado mal, y quería quitarlo de youtube,  pero no quería dejarlos sin un EP 3, así que hize esto.',
@@ -88,7 +88,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 4 - Especial Navideño 2010',
     thumbnailUrl: LB4,
-    webUrl: 'https://www.youtube.com/embed/iMwiSnQlWa8', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/_lJdJNrMBjc', // Add the episode URL
     backgroundImage: LBP4,
     seriesLogo: LBLogo,
     description: 'Llegó la navidad!, legobob esta muy emocionado por abrir sus regalos, pero cuando digo emocionado significa EMOCIONADO!',
@@ -98,7 +98,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 5 - Alerta Meteoros',
     thumbnailUrl: LB5,
-    webUrl: 'https://www.youtube.com/embed/p-jyRqkElwc', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/n3UpP4YeocE', // Add the episode URL
     backgroundImage: LBP5,
     seriesLogo: LBLogo,
     description: 'El pronostico anunció una lluvia de meteoros, ahora Legobob tratará de evitar ser meteorizado, acertará o fallará???',
@@ -108,7 +108,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 6 - SkateBob al Extremo',
     thumbnailUrl: LB6,
-    webUrl: 'https://www.youtube.com/embed/SsHckk9_K2w', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/2mI0sQbFZ30', // Add the episode URL
     backgroundImage: LBP6,
     seriesLogo: LBLogo,
     description: 'Legobob entra a un concurso de skateboarding, ahora Legobob debe conseguir un skateboard y competir',
@@ -118,7 +118,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 7 - Dustin el Lego',
     thumbnailUrl: LB7,
-    webUrl: 'https://www.youtube.com/embed/kaa59TRAXTY', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/C9gJls8PeI8', // Add the episode URL
     backgroundImage: LBP7,
     seriesLogo: LBLogo,
     description: 'Legobob se accidentó gravemente y no podrá hacer el episodio, afortunadamente contrató a alguien más para encargarse de eso!',
@@ -128,7 +128,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 8 - Mugroso Musculoso',
     thumbnailUrl: LB8,
-    webUrl: 'https://www.youtube.com/embed/F-GC6bGxeBs', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/glyBezhAH5M', // Add the episode URL
     backgroundImage: LBP8,
     seriesLogo: LBLogo,
     description: 'Burro esta interesado en ganar $10,000, para eso debe ganar un concurso de fuerza, pero a veces  ser muy fuerte se te sube a la cabeza.',
@@ -138,7 +138,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 9 - Burro VS Dustin Versión 2.0',
     thumbnailUrl: LB9,
-    webUrl: 'https://www.youtube.com/embed/4DVGwxYJ3qY', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/kmv39zhkGsM', // Add the episode URL
     backgroundImage: LBP9,
     seriesLogo: LBLogo,
     description: 'La historia es la misma, pero la versión 2.0 incluye : - Mejor calidad de video - Mejor calidad de audio - Intro nueva (como la del EP 12) - Subtitulaje (Inglés) - Parte final nueva - Pelea mejorada - Canciónes diferentes (In The End, Breaking the habits)',
@@ -148,7 +148,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 10 - Pikachú en la Aventura',
     thumbnailUrl: LB10,
-    webUrl: 'https://www.youtube.com/embed/a__VYyVDOLU', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/Xtx2bc0dPx0', // Add the episode URL
     backgroundImage: LBP10,
     seriesLogo: LBLogo,
     description: 'Legobob encuentra un nuevo amigo, pero no tiene idea de que Pikachu tiene un duro secreto.',
@@ -158,7 +158,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 11 - La Enfermedad de la PierdePiezSitis',
     thumbnailUrl: LB11,
-    webUrl: 'https://www.youtube.com/embed/lBhqgK1JwDY', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/CnBXbjBFulU', // Add the episode URL
     backgroundImage: LBP11,
     seriesLogo: LBLogo,
     description: 'A Legobob le llega la más espantosa y mortal enfermedad de lego : La pierdepiezsitis',
@@ -168,7 +168,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 12 - La Amenaza',
     thumbnailUrl: LB12,
-    webUrl: 'https://www.youtube.com/embed/0rJs3rSOk3s', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/wpxTGC-r8vY', // Add the episode URL
     backgroundImage: LBP12,
     seriesLogo: LBLogo,
     description: 'Burro y Pikachu han sido secuestrados, ¿por quien? ¿por qué? descubrelo en este emocionante episodio. Y gracias a TheLuigiDimension por la ayuda!',
@@ -178,7 +178,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 13 - Super Mario',
     thumbnailUrl: LB13,
-    webUrl: 'https://www.youtube.com/embed/yKkjOyPPrnU', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/9leqvUeyaC0', // Add the episode URL
     backgroundImage: LBP13,
     seriesLogo: LBLogo,
     description: 'Una visita inesperada llega con Legobob persiguiendo a su archienemigo.',
@@ -188,7 +188,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 14 - Jigsaw y el Juego de la Muerte',
     thumbnailUrl: LB14,
-    webUrl: 'https://www.youtube.com/embed/aQ-7IEkLO5s', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/Qn41DzdOXIU', // Add the episode URL
     backgroundImage: LBP14,
     seriesLogo: LBLogo,
     description: 'Pikachu ha sido secuestrado por el amante de juegos asesinos Jigsaw. La verdad no tenía planeado este episodio, una vez vi a mi hermano jugando el videojuego de Saw 2 Flesh and Blood, y tantas trampas me inspiraron a hacer esto.',
@@ -198,7 +198,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 15 - El VerdeBob',
     thumbnailUrl: LB15,
-    webUrl: 'https://www.youtube.com/embed/16YMpzZg7HM', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/zVtrTyeaNUM', // Add the episode URL
     backgroundImage: LBP15,
     seriesLogo: LBLogo,
     description: 'Legobob consigue unas piezas verdes que lo empiezan a volver cretinamente malo. ¿Podrán sus amigos hacer algo con este caos?',
@@ -208,7 +208,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 16 Parte 1 - SkateBob a lo Supremo',
     thumbnailUrl: LB161,
-    webUrl: 'https://www.youtube.com/embed/I6ab2XzYxeM', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/ljKU26_i_7Q', // Add the episode URL
     backgroundImage: LBP161,
     seriesLogo: LBLogo,
     description: 'La segunda parte del torneo de Skateboarding llegó, mientras tanto Mario actúa como nunca antes lo había hecho. Nota : A partir de este episodio, TheLuigiDimension es parte de LegoBob tambien al actuar como el mario que aparece en este episodio.',
@@ -218,7 +218,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 16 Parte 2 - Parecidos y Viejos Enemigos',
     thumbnailUrl: LB162,
-    webUrl: 'https://www.youtube.com/embed/Y4rQoAY_16I', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/bj3naSjoPz4', // Add the episode URL
     backgroundImage: LBP162,
     seriesLogo: LBLogo,
     description: 'Despues de enterarse de que hay 2 Marios, la aventura se vuelve mas emocionante y peligrosa en una batalla entre parecidos y viejos enemigos.',
@@ -228,7 +228,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 17 - El Club de Comedia',
     thumbnailUrl: LB17,
-    webUrl: 'https://www.youtube.com/embed/f0IEkzu3A7s', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/IWfA9ofW-fY', // Add the episode URL
     backgroundImage: LBP17,
     seriesLogo: LBLogo,
     description: 'Legobob se inscribe de comediante en un club de comedia.',
@@ -248,7 +248,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 19 - Captura la Bandera',
     thumbnailUrl: LB19,
-    webUrl: 'https://www.youtube.com/embed/odtAWR0EfY4', // Add the episode 
+    webUrl: 'https://www.youtube.com/embed/CDhQZHi7zOI', // Add the episode 
     backgroundImage: LBP19,
     seriesLogo: LBLogo,
     description: 'Pikachu apuesta su casa en un juego de captura la bandera contra el campéon.',
@@ -258,7 +258,7 @@ const LB = [
     section: 'LB',
     title: 'Especial de Halloween',
     thumbnailUrl: LBH,
-    webUrl: 'https://www.youtube.com/embed/F4d19FeMEQg', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/836ZMUO_tsM', // Add the episode URL
     backgroundImage: LBPH,
     seriesLogo: LBLogo,
     description: 'Fueron 10 dias de retraso pero por fin está aqui, disfrutenlo!',
@@ -268,7 +268,7 @@ const LB = [
     section: 'LB',
     title: 'Fiesta de Aniversario',
     thumbnailUrl: LBA,
-    webUrl: 'https://www.youtube.com/embed/gB6fQ2wQYt4', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/y8Q4x4Q0M-w', // Add the episode URL
     backgroundImage: LBPA,
     seriesLogo: LBLogo,
     description: 'Ya pasó 1 año :D',
@@ -277,7 +277,7 @@ const LB = [
     section: 'LB',
     title: 'Especial Navideño 2011',
     thumbnailUrl: LBN,
-    webUrl: 'https://www.youtube.com/embed/dnOBdtKD-Z8', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/3OCyHTb9irY', // Add the episode URL
     backgroundImage: LBPN,
     seriesLogo: LBLogo,
     description: 'Bowser se roba los regalos navideños, hora de recuperarlos! Gracias a "Carlitos15151511" por darme la idea de que alguien se roba los regalos de navidad!',
@@ -287,7 +287,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 20 - LegoCatastrofes Parte 1',
     thumbnailUrl: LB201,
-    webUrl: 'https://www.youtube.com/embed/9x2i1n6xD_c', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/5KD3E0HBJSs', // Add the episode URL
     backgroundImage: LBP201,
     seriesLogo: LBLogo,
     description: 'Inicia el final.',
@@ -297,7 +297,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 20 - LegoCatastrofes Parte 2',
     thumbnailUrl: LB202,
-    webUrl: 'https://www.youtube.com/embed/Y6zO5KOBtcE', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/vCW6_UJH5P4', // Add the episode URL
     backgroundImage: LBP202,
     seriesLogo: LBLogo,
     description: 'Todo termina.',
@@ -307,7 +307,7 @@ const LB = [
     section: 'LB',
     title: 'LegoBob EP 1 - Canto Mortal (13 Aniversario)',
     thumbnailUrl: LB13A,
-    webUrl: 'https://www.youtube.com/embed/iX4HgHfnesk', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/wYEmNkctRqo', // Add the episode URL
     backgroundImage: LB13A,
     seriesLogo: LBLogo,
     description: 'Despues de tanto tiempo, LegoBob encuentra sus piernas y su boca original. Ahora decide recrear el primer episodio de su serie para ver si todavía tiene el toque que lo hizo famoso... No esperen info. del canal en este video, comoquiera recuerden quedarse hasta el final ;)',
