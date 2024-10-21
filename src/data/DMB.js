@@ -116,7 +116,7 @@ const DMB = [
     section: 'DMB',
     title: 'Dúper Mario Bros - Episodio 8.5 (Escena Eliminada)',
     thumbnailUrl: DMB85,
-    webUrl: 'https://www.youtube.com/embed/3vVHDTD-qU', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/53vVHDTD-qU', // Add the episode URL
     backgroundImage: DMBP85,
     seriesLogo: DMBLogo,
     description: 'Recuerden que esto no es el resultado final, aún hay cosas que se van a ajustar (como el uso de groserías), la forma de grabar, etc. Recuerden que esta continuación es para todos y si tienen sugerencias, estas se van a recibir y usar para entregar un mejor producto ya cuando más importe, en el Episodio 12 Pt. 2. Vean esto como un video para probar las aguas.',
