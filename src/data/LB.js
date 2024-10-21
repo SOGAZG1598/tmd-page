@@ -228,7 +228,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 17 - El Club de Comedia',
     thumbnailUrl: LB17,
-    webUrl: 'https://www.youtube.com/embed/IWfA9ofW-fY', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/t_vKQQNGdOQ', // Add the episode URL
     backgroundImage: LBP17,
     seriesLogo: LBLogo,
     description: 'Legobob se inscribe de comediante en un club de comedia.',
@@ -238,7 +238,7 @@ const LB = [
     section: 'LB',
     title: 'Episodio 18 - Problemas con Yoshi',
     thumbnailUrl: LB18,
-    webUrl: 'https://www.youtube.com/embed/w3GO4aLA5t0', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/IWfA9ofW-fY', // Add the episode URL
     backgroundImage: LBP18,
     seriesLogo: LBLogo,
     description: 'Mario encuentra un huevo de yoshi y esta dispuesto a cuidarlo.',
