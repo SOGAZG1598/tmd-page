@@ -167,7 +167,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 1 : Un Nuevo Plan',
     thumbnailUrl: DMB1,
-    webUrl: 'https://www.youtube.com/embed/8Cymf0dLwAc',
+    webUrl: 'https://www.youtube.com/embed/TZijjc32tkw',
     backgroundImage: DMBP1,
     seriesLogo: DMBLogo,
     description: 'El epico desmadre comienza!',
@@ -177,7 +177,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 2 : Sendero al Mal',
     thumbnailUrl: DMB2,
-    webUrl: 'https://www.youtube.com/embed/4jrgWsDPQhY',
+    webUrl: 'https://www.youtube.com/embed/mB9anl-5yVw',
     backgroundImage: DMBP2,
     seriesLogo: DMBLogo,
     description: 'Mario y Luigi se aventuran al castillo de Bowser para salvar a la princesa Peach.',
@@ -187,7 +187,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 3 : El Castillo de Bowser',
     thumbnailUrl: DMB3,
-    webUrl: 'https://www.youtube.com/embed/I6-d7CT92ug', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/8dEokaQOw4A', // Add the episode URL
     backgroundImage: DMBP3,
     seriesLogo: DMBLogo,
     description: 'Mario y Luigi se enfrentan al castillo de Bowser!',
@@ -197,7 +197,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 4 : El Sabio Washatumorra',
     thumbnailUrl: DMB4,
-    webUrl: 'https://www.youtube.com/embed/jpF0-i4k-b4', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/orctsFMh_QA', // Add the episode URL
     backgroundImage: DMBP4,
     seriesLogo: DMBLogo,
     description: 'Los heroes van con el sabio del Reino Champiñón a pedir ayuda.',
@@ -207,7 +207,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 5 : Una Nueva Esperanza',
     thumbnailUrl: DMB5,
-    webUrl: 'https://www.youtube.com/embed/Hw9ihiftcGg', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/EH6UmAq498Q', // Add the episode URL
     backgroundImage: DMBP5,
     seriesLogo: DMBLogo,
     description: 'Los heroes se dirijen al Castillo de Peach en busca de una de las únicas cosas que pueden vencer a Bowser.',
@@ -217,7 +217,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 6 : ¿El Juego del Miedo?...',
     thumbnailUrl: DMB6,
-    webUrl: 'https://www.youtube.com/embed/nVecuPqj668', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/-EF_khClTVs', // Add the episode URL
     backgroundImage: DMBP6,
     seriesLogo: DMBLogo,
     description: 'Antes de poder conseguir la esfera sagrada deben superar un reto.',
@@ -227,7 +227,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 7 : Un Mientras Tanto con Bowser',
     thumbnailUrl: DMB7,
-    webUrl: 'https://www.youtube.com/embed/0Egr9NC-8T4', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/rtMC_l46QSs', // Add the episode URL
     backgroundImage: DMBP7,
     seriesLogo: DMBLogo,
     description: 'Vemos lo que ocurre con Bowser mientras los héroes buscan la segunda esfera sagrada.',
@@ -237,7 +237,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 8 : El Club de Comedia',
     thumbnailUrl: DMB8,
-    webUrl: 'https://www.youtube.com/embed/LU3Mf2aywlo', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/tAyD8nioOd4', // Add the episode URL
     backgroundImage: DMBP8,
     seriesLogo: DMBLogo,
     description: 'Los héroes llegan al club de comedia Bickolt y encuentran al hijo del sabio.',
@@ -247,7 +247,7 @@ const episodes = [
     section: 'DMB',
     title: 'Dúper Mario Bros - Episodio 8.5 (Escena Eliminada)',
     thumbnailUrl: DMB85,
-    webUrl: 'https://www.youtube.com/embed/SEaH2_O-nNw', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/3vVHDTD-qU', // Add the episode URL
     backgroundImage: DMBP85,
     seriesLogo: DMBLogo,
     description: 'Recuerden que esto no es el resultado final, aún hay cosas que se van a ajustar (como el uso de groserías), la forma de grabar, etc. Recuerden que esta continuación es para todos y si tienen sugerencias, estas se van a recibir y usar para entregar un mejor producto ya cuando más importe, en el Episodio 12 Pt. 2. Vean esto como un video para probar las aguas.',
@@ -257,7 +257,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 9 : La Posesión',
     thumbnailUrl: DMB9,
-    webUrl: 'https://www.youtube.com/embed/Z4UVxh8zeGM', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/umJg0OmZjno', // Add the episode URL
     backgroundImage: DMBP9,
     seriesLogo: DMBLogo,
     description: '¿Que sera de Mario?... ',
@@ -267,7 +267,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 10 : La Hora de Brillar de Luigi',
     thumbnailUrl: DMB10,
-    webUrl: 'https://www.youtube.com/embed/xHigZ1I3HrY', 
+    webUrl: 'https://www.youtube.com/embed/zUj9pT_xyLY', 
     backgroundImage: DMBP10,
     seriesLogo: DMBLogo,
     description: 'Los heroes se adentran en el Templo Sagrado para poder salvar a Mario. ',
@@ -277,7 +277,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 10.5 : La Hora de Brillar del Vendedor',
     thumbnailUrl: DMB105,
-    webUrl: 'https://www.youtube.com/embed/uoY2U0CgkjQ', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/ZkRgXgmqemM', // Add the episode URL
     backgroundImage: DMBP105,
     seriesLogo: DMBLogo,
     description: 'El vendedor regresa!! y esta vez tiene un nuevo trabajo en el restaurante "EL ITALIANO". No se pierdan esta extención de episodio este 25 de Diciembre!!',
@@ -287,7 +287,7 @@ const episodes = [
     section: 'DMB',
     title: 'Episodio 11 : El Shadowken',
     thumbnailUrl: DMB11,
-    webUrl: 'https://www.youtube.com/embed/liDKFRcRc1A', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/Mvk5t1jL1Nw', // Add the episode URL
     backgroundImage: DMBP11,
     seriesLogo: DMBLogo,
     description: 'Soul tiene otros planes, ¿podrán los héroes detenerlo?',
@@ -297,7 +297,7 @@ const episodes = [
     section: 'DMB',
     title: 'UNA PARTE DEL Episodio 12',
     thumbnailUrl: DMB12,
-    webUrl: 'https://www.youtube.com/embed/IL6C8UkrmLM', // Add the episode URL
+    webUrl: 'https://www.youtube.com/embed/jlIA9Q58Sxs', // Add the episode URL
     backgroundImage: DMBP12,
     seriesLogo: DMBLogo,
     description: 'La cuenta regresiva empieza. ¿Qué harán nuestros héroes para vencer a Soul?',
