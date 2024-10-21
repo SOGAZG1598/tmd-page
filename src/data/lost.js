@@ -21,7 +21,7 @@ const Lost = [
         section: 'Lost',
         title: '666lego/%bob..o#3# | ¿Te parece Divertido?',
         thumbnailUrl: LBTPDT,
-        webUrl: 'https://www.youtube.com/embed/9Fky_KrWY2M', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/MSyvggKKpkA', // Add the episode URL
         backgroundImage: LBTPD,
         seriesLogo: CreepyLogo,
         description: '???',
@@ -31,7 +31,7 @@ const Lost = [
         section: 'Lost',
         title: '¿Qué Pasó con LegoBob?',
         thumbnailUrl: QPCLBT,
-        webUrl: 'https://www.youtube.com/embed/pcK4BzMdFTs', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/_2RTvKCSQ3A', // Add the episode URL
         backgroundImage: QPCLBP,
         seriesLogo: TMDLOGO,
         description: '???',
@@ -41,7 +41,7 @@ const Lost = [
         section: 'Lost',
         title: 'Teaser - Duper Mario Bros Ep 8.5 (Escena Eliminada)',
         thumbnailUrl: DMB85T,
-        webUrl: 'https://www.youtube.com/embed/-8Syku45SDg', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/9bQTVVjycak', // Add the episode URL
         backgroundImage: DMB85T,
         seriesLogo: DMBLogo,
         description: 'La escena sale el viernes 22 de Septiembre!!',
@@ -51,7 +51,7 @@ const Lost = [
         section: 'Lost',
         title: 'Trailer Creepypasta - TheMarioDimension2',
         thumbnailUrl: Creepy5T,
-        webUrl: 'https://www.youtube.com/embed/agiWhs-mQL0', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/g9NBs8cA-1w', // Add the episode URL
         backgroundImage: Creepy5T,
         seriesLogo: CreepyLogo,
         description: '???',
@@ -61,7 +61,7 @@ const Lost = [
         section: 'Lost',
         title: '(Trailer) Duper Mario Bros - Episodio 10.5',
         thumbnailUrl: DMB105T,
-        webUrl: 'https://www.youtube.com/embed/q5TLhhEJle0', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/Webe64LLrX8', // Add the episode URL
         backgroundImage: DMB105T,
         seriesLogo: DMBLogo,
         description: 'Video deslistado en el canal',
@@ -71,7 +71,7 @@ const Lost = [
         section: 'Lost',
         title: 'Teaser',
         thumbnailUrl: S20001P,
-        webUrl: 'https://www.youtube.com/embed/BeIN_8ismhM', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/j1zk--prg70', // Add the episode URL
         backgroundImage: S20001P,
         seriesLogo: TMDLOGO,
         description: 'Este video si se dan cuenta fue subido mucho antes del primer video público en el canal. ¿Porqué será?',
@@ -81,7 +81,7 @@ const Lost = [
         section: 'Lost',
         title: 'Teaser - Preguntas Dimensionales #6',
         thumbnailUrl: PD6T,
-        webUrl: 'https://www.youtube.com/embed/M5MIdv9kglA', // Add the episode URL
+        webUrl: 'https://www.youtube.com/embed/YwNAODkDPtA', // Add the episode URL
         backgroundImage: PD6T,
         seriesLogo: PDLogo,
         description: 'Visuales (Ezlo):  @TomySiete',
