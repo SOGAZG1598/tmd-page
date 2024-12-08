@@ -13,6 +13,7 @@ import DMB9 from '../assets/images/thumbnails/EP9.jpg'
 import DMB10 from '../assets/images/thumbnails/EP10.jpg'
 import DMB11 from '../assets/images/thumbnails/EP11.jpg'
 import DMB12 from '../assets/images/thumbnails/EP12.jpg'
+import DMB125 from '../assets/images/thumbnails/DMB125.png'
 import DMBP1 from '../assets/images/preview/DMBP1.png'
 import DMBP2 from '../assets/images/preview/DMBP2.png'
 import DMBP3 from '../assets/images/preview/DMBP3.png'
@@ -27,6 +28,7 @@ import DMBP11 from '../assets/images/preview/DMBP11.png'
 import DMBP12 from '../assets/images/preview/DMBP12.png'
 import DMBP85 from '../assets/images/preview/DMBP8.5.png'
 import DMBP105 from '../assets/images/preview/DMBP10.5.png'
+import DMBP125 from '../assets/images/preview/DMBP125.png'
 
 
 
@@ -170,6 +172,16 @@ const DMB = [
     backgroundImage: DMBP12,
     seriesLogo: DMBLogo,
     description: 'La cuenta regresiva empieza. ¿Qué harán nuestros héroes para vencer a Soul?',
+  },
+  {
+    id: 15,
+    section: 'DMB',
+    title: 'LA OTRA PARTE DEL Episodio 12 : Una Nueva Misión',
+    thumbnailUrl: DMB125,
+    webUrl: 'https://www.youtube.com/embed/jlIA9Q58Sxs', // Add the episode URL
+    backgroundImage: DMBP125,
+    seriesLogo: DMBLogo,
+    description: 'Nuestros heroes siguen su meta de conseguir las esferas sagradas. Pero se encontrarán con viejos y nuevos retos en su camino al siguiente destino...',
   },
   ];
 
