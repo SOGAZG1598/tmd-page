@@ -37,6 +37,16 @@ const Trailers = [
         seriesLogo: DMBLogo,
         description: 'Mario y los demás se preparan para su siguiente reto. No se pierdan este año LA OTRA PARTE DE Dúper Mario Bros - Episodio 12...',
       },
+    {
+        id: 4,
+        section: 'Trailers',
+        title: 'Trailer - LA OTRA PARTE DE Dúper Mario Bros - Episodio 12',
+        thumbnailUrl: DMBT3,
+        webUrl: 'https://www.youtube.com/embed/_diKznt3v34', // Add the episode URL
+        backgroundImage: DMBPT3,
+        seriesLogo: DMBLogo,
+        description: 'Proximemente',
+      },
     
   ];
 
