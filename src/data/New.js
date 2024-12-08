@@ -1,6 +1,6 @@
 
 import DMB125 from '../assets/images/thumbnails/DMB125.png'
-import DMB125 from '../assets/images/thumbnails/DMB125.png'
+import DMBP125 from '../assets/images/preview/DMBP125.png'
 import DMBLogo from '../assets/images/logo/LogoDMB.png'
 
 const New = [
