@@ -1,18 +1,18 @@
 
-import PD7 from '../assets/images/thumbnails/PD7.png'
-import PDP7 from '../assets/images/preview/PDP7.png'
-import PDLogo from '../assets/images/logo/LogoPD.png'
+import DMB125 from '../assets/images/thumbnails/DMB125.png'
+import DMB125 from '../assets/images/thumbnails/DMB125.png'
+import DMBLogo from '../assets/images/logo/LogoDMB.png'
 
 const New = [
   {
-    id: 7,
-    section: 'PD',
-    title: 'Preguntas Dimensionales #7',
-    thumbnailUrl: PD7,
-    webUrl: 'https://www.youtube.com/embed/NNqKGVbn2B8', // Add the episode URL
-    backgroundImage: PDP7,
-    seriesLogo: PDLogo,
-    description: 'Visuales (Ezlo):  @TomySiete',
+    id: 15,
+    section: 'DMB',
+    title: 'LA OTRA PARTE DEL Episodio 12 : Una Nueva Misión',
+    thumbnailUrl: DMB125,
+    webUrl: 'https://www.youtube.com/embed/NIDoa2Rprk0', // Add the episode URL
+    backgroundImage: DMBP125,
+    seriesLogo: DMBLogo,
+    description: 'Nuestros heroes siguen su meta de conseguir las esferas sagradas. Pero se encontrarán con viejos y nuevos retos en su camino al siguiente destino...',
   },
     
   ];
