@@ -16,7 +16,6 @@ import Lost from '../data/lost';
 import Trailers from '../data/trailers';
 import './Scroll.css'
 import New from '../data/New';
-import Next from '../data/Next';
 
 const Videos = () => {
     return(
