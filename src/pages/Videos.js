@@ -25,8 +25,8 @@ const Videos = () => {
             <VideoPreview episodes={ episodes }/>
             <h2 className="episode-list-title">Nuevos Videos</h2>
             <EpisodeList episodes={ New } />
-            //<h2 className="episode-list-title">Proximamente</h2>
-            //<EpisodeList episodes={ Next } />
+            <!-- <h2 className="episode-list-title">Proximamente</h2> -->
+            <!-- <EpisodeList episodes={ Next } /> -->
             <h2 className="episode-list-title">LegoBob</h2>
             <EpisodeList episodes={ LB } />
             <h2 className="episode-list-title">Dúper Mario Bros</h2>
