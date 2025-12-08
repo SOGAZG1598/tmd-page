@@ -35,7 +35,7 @@ const New = [
     description: '¡Johnny está en peligro! Separado del grupo, Toad tropieza con una persona familiar. Mientras tanto, los errores del pasado asechan a Mario, y nuestros heroes se enfrentan a un dilema que pondrá a prueba su lealtad. ¿Hasta dónde están dispuestos a llegar por las esferas sagradas?',
   },
   {
-    id: 6,
+    id: 8,
     section: 'Extra',
     title: 'El Regreso de TheMarioDimension - Entrevista Completa',
     thumbnailUrl: ENTRET,
@@ -55,7 +55,7 @@ const New = [
     description: 'Despues de cobrar venganza contra Rodrigo, LegoBob regresa a terminar con lo que empezó. ¿Logrará Burro resolver este gran misterio a tiempo? \n Este video está basado en la Creepypasta hecha por Rodrigo TheMarioDimension. No es parte del canon de LegoBob ni Dúper Mario Bros.',
   },
   {
-    id: 8,
+    id: 10,
     section: 'Extra',
     title: 'TheMarioDimension',
     thumbnailUrl: TMDT,
@@ -65,7 +65,7 @@ const New = [
     description: 'Hey:)',
   },
   {
-    id: 9,
+    id: 11,
     section: 'Extra',
     title: 'Proyectos y Animaciones de TheMarioDimension que nunca salieron',
     thumbnailUrl: PCA,
@@ -77,3 +77,4 @@ const New = [
   ];
 
   export default New;
+
