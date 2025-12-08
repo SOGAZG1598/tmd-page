@@ -1155,7 +1155,7 @@ const episodes = [
       
      
       {
-        id: 7,
+        id: 9,
         section: 'Extra',
         title: 'dúper mario',
         thumbnailUrl: DMBR,
@@ -1166,7 +1166,7 @@ const episodes = [
       },
       */
       {
-        id: 8,
+        id: 10,
         section: 'Extra',
         title: 'TheMarioDimension',
         thumbnailUrl: TMDT,
@@ -1176,7 +1176,7 @@ const episodes = [
         description: 'Hey:)',
       },
       {
-        id: 9,
+        id: 11,
         section: 'Extra',
         title: 'Proyectos y Animaciones de TheMarioDimension que nunca salieron',
         thumbnailUrl: PCA,
@@ -1186,7 +1186,7 @@ const episodes = [
         description: 'Hola amigos:) el día de hoy les quiero compartir algunos trabajos y material del pasado que encontré entre mis archivos y que nunca llegué a terminar o siquiera sacar a la luz.',
       },
       {
-        id: 6,
+        id: 8,
         section: 'Extra',
         title: 'El Regreso de TheMarioDimension - Entrevista Completa',
         thumbnailUrl: ENTRET,
@@ -1199,3 +1199,4 @@ const episodes = [
 ];
 
 export default episodes;
+
