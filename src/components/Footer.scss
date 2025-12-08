@@ -23,6 +23,10 @@
     cursor: pointer; /* Add pointer cursor for clickable images */
     margin-right: 30px; /* Add margin to create gap between images */
   }
+
+  .PTRN img {
+    max-height: 30px;
+  }
   
   .footer-column p a {
     color: #fff;

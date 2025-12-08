@@ -55,7 +55,7 @@ const Navbar = () => {
       <a class="nav-item" href="/news">News</a>
       <a class="nav-item" href="/channels">Canales</a>
       <a class="nav-item" href="/videos">Videos</a>
-      <a class="nav-item" href="wiki">Personajes</a>
+      <a class="nav-item" href="wiki">Wiki</a>
       <a class="nav-item" href="store">???</a>
       <a class="nav-item" href="socialmedia">Redes Sociales</a>
     </nav>

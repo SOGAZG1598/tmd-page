@@ -3,8 +3,8 @@ import './Footer.scss'; // You can create a separate CSS file for styling
 import logo from '../assets/images/logo/watermark.png'
 import fblogo from '../assets/images/sm/fb.png'
 import xlogo from '../assets/images/sm/x.webp'
-import ttlogo from '../assets/images/sm/tt.webp'
-import ptrnlogo from '../assets/images/sm/ptrn.png'
+import ttlogo from '../assets/images/sm/disc.webp'
+import ptrnlogo from '../assets/images/sm/yt.png'
 
 const Footer = () => {
     return (
@@ -28,10 +28,10 @@ const Footer = () => {
         <div className="footer-column2">
           {/* Social Media */}
           <p>Redes Sociales:</p>
-        <a class='FB' href="https://www.facebook.com"><img src={fblogo} alt="Facebook" /></a>
-        <a class='X' href="https://www.x.com"><img src={xlogo} alt="X" /></a>
-        <a class='TT' href="https://www.tiktok.com"><img src={ttlogo} alt="TikTok" /></a>
-        <a class='PTRN' href="https://www.patreon.com"><img src={ptrnlogo} alt="Patreon" /></a>
+        <a class='FB' href="https://www.facebook.com/profile.php?id=61551168365082"><img src={fblogo} alt="Facebook" /></a>
+        <a class='X' href="https://x.com/_TMD_2"><img src={xlogo} alt="X" /></a>
+        <a class='TT' href="https://discord.gg/KWkEGwySbv"><img src={ttlogo} alt="Discord" /></a>
+        <a class='PTRN' href="https://www.youtube.com/@TMD2.0"><img src={ptrnlogo} alt="YouTube" /></a>
       </div>
       </footer>
     );
