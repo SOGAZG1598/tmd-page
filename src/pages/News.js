@@ -1,5 +1,4 @@
 // src/components/Navbar.js
-import React, { useState } from 'react';
 import Navbar from '../components/NavBar';
 import Footer from '../components/Footer';
 import logodisc from '../assets/images/logo/disc.png'
