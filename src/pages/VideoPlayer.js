@@ -56,7 +56,7 @@ const VideoPlayer = ({ episodesData }) => {
 
   return (
     <div>
-      <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081463517624663"
+    <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081463517624663"
      crossOrigin="anonymous"></script></head>
       <Navbar />
       <div className="series-info">
