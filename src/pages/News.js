@@ -6,14 +6,6 @@ import logodisc from '../assets/images/logo/disc.png'
 import './News.scss'; 
 
 const News = ( {articles} ) => {
-    const [selectedArticle, setSelectedArticle] = useState(null);
-
-    const handleArticleClick = (article) => {
-        setSelectedArticle(article);
-    };
-
-    const reversedArticles = [...articles].reverse();
-    
     return(
         <div>
             <head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081463517624663"
