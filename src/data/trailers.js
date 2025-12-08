@@ -5,6 +5,10 @@ import DMBPT1 from '../assets/images/preview/DMBPT1.png'
 import DMBPT2 from '../assets/images/preview/DMBPT2.png'
 import DMBPT3 from '../assets/images/preview/DMBPT3.png'
 import DMBLogo from '../assets/images/logo/LogoDMB.png'
+import DMB12TP from '../assets/images/preview/LOPDMB12T.png'
+import DMB12T from '../assets/images/thumbnails/LOPDMB12T.jpg'
+import DMB13TP from '../assets/images/preview/DMB13TP.png'
+import DMB13T from '../assets/images/thumbnails/DMBEP13TT.png'
 
 const Trailers = [
     {
@@ -41,9 +45,19 @@ const Trailers = [
         id: 4,
         section: 'Trailers',
         title: 'Trailer - LA OTRA PARTE DE Dúper Mario Bros - Episodio 12',
-        thumbnailUrl: DMBT3,
+        thumbnailUrl: DMB12T,
         webUrl: 'https://www.youtube.com/embed/_diKznt3v34', // Add the episode URL
-        backgroundImage: DMBPT3,
+        backgroundImage: DMB12TP,
+        seriesLogo: DMB12TP,
+        description: 'Proximemente',
+      },
+      {
+        id: 5,
+        section: 'Trailers',
+        title: 'Dúper Mario Bros - Episodio 13 || Trailer',
+        thumbnailUrl: DMB13T,
+        webUrl: 'https://www.youtube.com/embed/q8H8WdX04tM', // Add the episode URL
+        backgroundImage: DMB13TP,
         seriesLogo: DMBLogo,
         description: 'Proximemente',
       },

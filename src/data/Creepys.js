@@ -4,11 +4,13 @@ import Creepys2 from '../assets/images/thumbnails/Creepy2.jpg'
 import Creepys3 from '../assets/images/thumbnails/Creepy3.jpg'
 import Creepys4 from '../assets/images/thumbnails/Creepy4.jpg'
 import Creepys5 from '../assets/images/thumbnails/Creepy5.png'
+import Creepys6 from '../assets/images/thumbnails/Creepy6.png'
 import CreepyP1 from '../assets/images/preview/CreepyP1.png'
 import CreepyP2 from '../assets/images/preview/CreepyP2.png'
 import CreepyP3 from '../assets/images/preview/CreepyP3.png'
 import CreepyP4 from '../assets/images/preview/CreepyP4.png'
 import CreepyP5 from '../assets/images/preview/CreepyP5.png'
+import CreepyP6 from '../assets/images/preview/CreepyP6.png'
 
 const Creepys = [
   {
@@ -60,6 +62,17 @@ const Creepys = [
         backgroundImage: CreepyP5,
         seriesLogo: CreepyLogo,
         description: 'Bienvenidos al especial de Halloween!! Aquí se mostrarán 2 Creepypastas hechos por la comunidad: Mira atrás de tí por Juan Andrés Briceño:  juanandr3sbricen0  / Marlo por Viche Mimi: https://www.facebook.com/profile.php?...',
+      },
+
+      {
+        id: 6,
+        section: 'Creepy',
+        title: 'LegoBob || ¿Te Parece Divertido?',
+        thumbnailUrl: Creepys6,
+        webUrl: 'https://www.youtube.com/embed/Lu_9HJBovso', // Add the episode URL
+        backgroundImage: CreepyP6,
+        seriesLogo: CreepyLogo,
+        description: 'Despues de cobrar venganza contra Rodrigo, LegoBob regresa a terminar con lo que empezó. ¿Logrará Burro resolver este gran misterio a tiempo? \n Este video está basado en la Creepypasta hecha por Rodrigo TheMarioDimension. No es parte del canon de LegoBob ni Dúper Mario Bros.',
       },
     // Add more episodes as needed
   ];

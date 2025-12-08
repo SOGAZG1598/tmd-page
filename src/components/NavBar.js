@@ -10,13 +10,11 @@ const Navbar = () => {
         <div className="navbarhole">
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
            <div class="header">  
-            <div class="header__logo">
-                <a href="/"><img class="logo_image" src={logo} alt=''></img></a>
-            </div>
+            
             <nav class="navbar">
                 <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <Link to="/"></Link><a href="/" class="navbar__link"><i data-feather="home"></i><span>Home</span> </a><Link />
+                    <Link to="/"></Link><a href="/" class="navbar__link"><i data-feather="home"></i><span>Inicio</span> </a><Link />
                 </li>
                 <li class="navbar__item">
                     <Link to="/news"></Link><a href="/news" class="navbar__link"><i data-feather="news"></i><span>Noticias</span> </a><Link />
@@ -28,7 +26,7 @@ const Navbar = () => {
                     <Link to="/videos"></Link><a href="/videos" class="navbar__link"><i data-feather="news"></i><span>Videos</span> </a><Link />       
                 </li>
                 <li class="navbar__item">
-                    <Link to="/wiki"></Link><a href="/wiki" class="navbar__link"><i data-feather="news"></i><span>Personajes</span> </a><Link />        
+                    <Link to="/wiki"></Link><a href="/wiki" class="navbar__link"><i data-feather="news"></i><span>Wiki</span> </a><Link />        
                 </li>
                 <li class="navbar__item">
                     <Link to="/store"></Link><a href="/store" class="navbar__link"><i data-feather="news"></i><span>???</span> </a><Link />        
@@ -38,6 +36,9 @@ const Navbar = () => {
                 </li>
                 </ul>
             </nav>
+            <div class="header__logo">
+                <a href="/"><img class="logo_image" src={logo} alt=''></img></a>
+            </div>
             </div>
             <div class="container">
 

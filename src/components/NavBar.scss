@@ -41,15 +41,15 @@ ul {
 
   .logo_image {
     width: 100%;
-    display: block;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    left: 100%;
   }
 
   .navbar{
     display: flex;
     align-items: center;
+    margin-left: 10%;
     height: 100%;
-    margin: 0 auto;
     overflow: hidden;
   &__menu{
     position: relative;
@@ -134,10 +134,19 @@ ul {
 
 
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1192px) {
+  
+  .navbar {
+    margin-left: -40px;
+ }
+
+}
+
+@media only screen and (min-width: 1195px) {
   .container {
     display: none;
-  }
+
+}
 }
 
 
@@ -148,7 +157,7 @@ ul {
 
    .logo_image {
       width: 60%;
-      margin: auto;
+      margin-left: 40%;
       margin-top: 27px;
    }
 
@@ -199,10 +208,12 @@ a {
 
     &:before {
       transform: translateY(-50%) rotate(45deg) scale(1);
+      margin-top: 10px;
     }
 
     &:after {
       transform: translateY(-50%) rotate(-45deg) scale(1);
+      margin-top: 10px;
     }
   }
 
@@ -363,229 +374,19 @@ a {
  }
 
 
- @media screen and (min-width:1280px) and (max-width: 1400px) {
+ 
+
+ @media screen and (min-width:431px) and (max-width:1194px){
   .navbar {
     display: none;
  }
 
  .logo_image {
+  display: none;
     width: 60%;
     margin: auto;
-    margin-top: 27px;
- }
-
- $items: 4;
-$transition-duration: 0.5s;
-$transition-delay: 0.05s;
-
-/* Basic Styles */
-
-* {
-box-sizing: border-box;
-}
-
-html, body {
-margin: 0;
-}
-
-body {
-font-family: sans-serif;
-background-color: black;
-}
-
-a {
-text-decoration: none;
-}
-
-.container {
-position: relative;
-margin: 0% ;
-width: 100%;
-height: 53%;
-overflow: hidden;
-margin-top: -6%;
-}
-
-/* Toggle Functionality */
-
-#toggle {
-display: none; //hides the checkbox
-}
-
-
-// Styles for the 'open' state, if the checkbox is checked
-#toggle:checked {
-//Any element you need to change the style if menu is open goes here, using the sibling selector (~)
-& ~ .toggle-container .button-toggle {
-  box-shadow: 0 0 0 400px rgba(255, 255, 255, 0.1), inset 0 0 0 20px rgba(255, 253, 253, 0.1);
-
-  &:before {
-    transform: translateY(-50%) rotate(45deg) scale(1);
-  }
-
-  &:after {
-    transform: translateY(-50%) rotate(-45deg) scale(1);
-  }
-}
-
-// Open Nav
-& ~ .nav {
-  margin-bottom: 70px;
-  pointer-events: auto;
-  transform: translate(50px, 50px);
-
-  // Restoring nav items from 'lines' in the menu icon
-  .nav-item {
-    color: #b41500;
-    letter-spacing: 0;
-    height: 35%;
-    line-height: 350%;
-    margin-top: 0%;
-    opacity: 1;
-    transform: scaleY(1);
-    transition: $transition-duration, opacity 0.1s;
-
-
-    // Setting delays for the nav items in open transition
-    @for $i from 1 through $items {
-      &:nth-child(#{$i}) {
-        $delay: ($items - $i) * $transition-delay;
-        transition-delay: $delay;
-        &:before {
-          transition-delay: $delay;
-        }
-      }
-    }
-
-    // Hide the lines
-    &:before {
-      opacity: 0;
-    }
-  }
-}
-}
-
-/* Toggle Button */
-
-.button-toggle {
-position: absolute;
-display: inline-block;
-width: 20px;
-height: 20px;
-margin: 25px;
-background-color: transparent;
-border: none;
-cursor: pointer;
-border-radius: 10%;
-transition: $transition-duration + 0.1;
-
-// Shadow on Hover
-&:hover {
- box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.1), inset 0 0 0 20px rgba(255, 255, 255, 0.1);
-}
-
-// Making the 'X' icon using `:before` and `:after` pseudo-elements
-// Initially hidden beause of `scale(0)` transformation
-
-&:before, &:after {
-  position: absolute;
-  content: '';
-  top: 0%;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #b41500;
-  border-radius: 5px;
-  transition: $transition-duration;
-}
-
-&:before {
-  transform: translateY(-50%) rotate(45deg) scale(0);
-}
-
-&:after {
-  transform: translateY(50%) rotate(-45deg) scale(0);
-}
-}
-
-/* Menu */
-
-.nav {
-display: inline-block;
-margin: 25px 25px 20px;
-pointer-events: none;
-transition: $transition-duration;
-}
-
-// Showing nav items as lines, making up the hamburger menu icon
-.nav-item {
-position: relative;
-display: inline-block;
-float: left;
-clear: both;
-color: transparent;
-font-size: 14px;
-letter-spacing: -6.2px;
-height: 7px;
-line-height: 7px;
-text-transform: uppercase;
-white-space: nowrap;
-transform: scaleY(0.2);
-transition: $transition-duration, opacity 1s;
-
-//Set delays for the nav items in close transition
-@for $i from 1 through $items {
-  &:nth-child(#{$i}) {
-    $delay: ($i - 1) * $transition-delay;
-    transition-delay: $delay;
-    &:before {
-      transition-delay: $delay;
-    }
-  }
-}
-
-// Adjusting width for first line
-&:nth-child(1) {
-  letter-spacing: -8px;
-}
-
-// Adjusting width for second line
-&:nth-child(2) {
-  letter-spacing: -7px;
-}
-
-// Adjusting the fourth element onwards
-&:nth-child(n + 4) {
-  letter-spacing: -8px;
-  margin-top: -1px;
-  opacity: 0;
-}
-
-//getting lines for the hamburger menu icon
-&:before {
-  position: absolute;
-  content: '';
-  top: 50%;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #b41500;
-  transform: translateY(-50%) scaleY(5);
-  transition: $transition-duration;
-}
-}
-}
-
-
- @media screen and (min-width:431px) and (max-width:1279px){
-  .navbar {
-    display: none;
- }
-
- .logo_image {
-    width: 60%;
-    margin: auto;
-    margin-top: 27px;
+    margin-left: 40%;
+    margin-top: 80px;
  }
 
  $items: 4;
@@ -635,10 +436,12 @@ display: none; //hides the checkbox
 
   &:before {
     transform: translateY(-50px) rotate(45deg) scale(1);
+    margin-top: 70px;
   }
 
   &:after {
     transform: translateY(-50px) rotate(-45deg) scale(1);
+    margin-top: 70px;
   }
 }
 
@@ -789,3 +592,21 @@ transition: $transition-duration, opacity 1s;
 }
 }
  }
+
+ @media only screen and (min-width: 1194px) and (max-width: 1274px) {
+  .logo_image {
+    display: none;
+  }
+
+}
+
+ @media only screen and (min-width: 1275px) and (max-width: 1727px) {
+  .logo_image {
+    display: none;
+  }
+
+  .navbar {
+    margin-left: 10%;
+    margin-right: -15%;
+  }
+}

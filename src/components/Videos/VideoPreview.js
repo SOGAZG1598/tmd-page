@@ -24,7 +24,7 @@ const VideoPreview = ({ episodes }) => {
           <img src={episodeData.seriesLogo} alt="Series Logo" className="series-logo" />
           <h2 className="title">{episodeData.title}</h2>
           <p className="description">{episodeData.description}</p>
-          <Link key={episodeData.id-1} to={`/videos/${episodeData.section}/${episodeData.id-1}`}>
+          <Link style={{textDecoration: "none"}} key={episodeData.id-1} to={`/videos/${episodeData.section}/${episodeData.id-1}`}>
           <button className="play-button">
             <span className="play-icon">▶</span> Ver Episodio
           </button>

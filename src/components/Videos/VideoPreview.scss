@@ -7,14 +7,16 @@ html, body {
 .episode-preview-container {
     position: relative;
     width: 100%;
-    margin-left: 8px;
-    
+    height: 100%;
+    margin-left: 0px;
+    text-decoration: none;
+
   }
   
   .background-image {
     position: relative;
     width: 100%;
-    max-width: 2000px;
+    max-width: 20000px;
     height: 800px; /* Adjust the height based on your design */
     background-position: center;
     margin-left: 70px;
@@ -61,14 +63,14 @@ html, body {
     position: relative;
     bottom: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px;
     color: #ffffff;
     width: 100%;
+    text-decoration: none;
   }
   
   .series-logo {
     height: 160px; /* Adjust the logo size */
-    margin-right: 10px;
     margin-top: 300px;
   }
   
@@ -88,19 +90,22 @@ html, body {
     background-color: #e50914;
     color: #ffffff;
     border: none;
-    padding: 10px 20px;
+    padding: 20px 40px;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    
+    font-size: 40px;
+    text-decoration: none;;
   }
   
   .play-button:hover {
-    background-color: #d30c11;
+    background-color: #94080d;
+    text-decoration: none;
   }
   
   .play-icon {
     margin-right: 10px;
+    text-decoration: none;
   }
 
   @media only screen and (max-width: 430px) {
@@ -122,12 +127,13 @@ html, body {
     }
   
     .series-logo {
-      height: 50px; /* Adjust based on your design */
+      margin-left: 20%;
+      height: 100px; /* Adjust based on your design */
       margin-top: 0px;
     }
   
     .title {
-      font-size: 24px; /* Adjust based on your design */
+      font-size: 100%; /* Adjust based on your design */
     }
   
     .description {
@@ -136,35 +142,39 @@ html, body {
   }
 
   @media screen and (min-width:431px) and (max-width:1280px){
+
+    .title {
+      font-size: 120%;
+      margin-bottom: 10px;
+      
+    }
+    .description {
+      margin-right: 100px;
+      opacity: 1;
+    }
     
+   
+  }
+
+  
+
+  @media screen and (min-width:1281px) and (max-width:3840px){
+
+    .episode-preview-container {
+      position: relative;
+    }
+
     .background-image {
       position: relative;
-      width: 100%;
-      height: 100%; /* Adjust the height based on your design */
-      background-position: center;
-      margin-left: 0px;
-      margin-top: 20px;
       background-repeat: no-repeat;
       background-size:     cover;  
+      margin-left: 2%;
       animation: fadeIn 2s;
     }
-  
-    .content {
-      width: 100%;
-      margin: 0 auto;
-      font-size: 14px; /* Adjust based on your design */
-    }
-  
-    .series-logo {
-      height: 50px; /* Adjust based on your design */
-      margin-top: 0px;
-    }
-  
     .title {
-      font-size: 24px; /* Adjust based on your design */
+      font-size: 30px;
+      margin-bottom: 10px;
+      
     }
   
-    .description {
-      font-size: 12px; /* Adjust based on your design */
-    }
   }

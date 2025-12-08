@@ -13,6 +13,7 @@ import CW from '../data/CW'
 import Creepy from '../data/Creepys'
 import PD from '../data/PD'
 import Jueguemos from '../data/Jueguemos'
+import Jueguemos2 from '../data/Jueguemos2'
 import Extra from '../data/extra'
 import Lost from '../data/lost'
 import Trailers from '../data/trailers'
@@ -43,7 +44,9 @@ const VideoPlayer = ({ episodesData }) => {
     list = PD
   } else if (selectedEpisode.section === 'Jueguemos'){
     list = Jueguemos
-  } else if (selectedEpisode.section === 'Extra'){
+  } else if (selectedEpisode.section === 'Jueguemos2'){
+    list = Jueguemos2
+  }else if (selectedEpisode.section === 'Extra'){
     list = Extra
   } else if (selectedEpisode.section === 'Lost'){
     list = Lost
@@ -53,6 +56,8 @@ const VideoPlayer = ({ episodesData }) => {
 
   return (
     <div>
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081463517624663"
+     crossOrigin="anonymous"></script>
       <Navbar />
       <div className="series-info">
         <img className='seriesLogo' src={selectedEpisode.seriesLogo} alt="Series Logo" />

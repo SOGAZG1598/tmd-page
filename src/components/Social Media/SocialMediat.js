@@ -2,29 +2,29 @@ import React from 'react';
 import './SocialMediat.scss';
 import FB from '../../assets/images/sm/fb.png'
 import X from '../../assets/images/sm/x.webp'
-import TT from '../../assets/images/sm/tt.webp'
-import PT from  '../../assets/images/sm/ptrn.png'
+import YT from '../../assets/images/sm/yt.png'
+import DS from  '../../assets/images/sm/disc.webp'
 
 const SocialMediat = () => {
   const socialMediaLinks = {
     Twitter: 'https://twitter.com/_TMD_2',
     Facebook: 'https://www.facebook.com/profile.php?id=61551168365082',
-    TikTok: 'https://www.tiktok.com/@themariodimension2',
-    Patreon: 'https://www.patreon.com/user?u=91132824'
+    YouTube: 'https://www.youtube.com/@tmd2.0',
+    Discord: 'https://discord.gg/KWkEGwySbv'
   };
 
   const socialMediaImages = {
     Twitter: X,
     Facebook: FB,
-    TikTok: TT,
-    Patreon: PT
+    YouTube: YT,
+    Discord: DS
   };
 
   const socialMediaColors = {
     Twitter: '#1DA1F2',
     Facebook: '#4267B2',
-    TikTok: '#000000',
-    Patreon: '#F96854'
+    YouTube: '#fc0032',
+    Discord: '#4751CC'
   };
 
   return (

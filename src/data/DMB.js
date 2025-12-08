@@ -29,6 +29,8 @@ import DMBP12 from '../assets/images/preview/DMBP12.png'
 import DMBP85 from '../assets/images/preview/DMBP8.5.png'
 import DMBP105 from '../assets/images/preview/DMBP10.5.png'
 import DMBP125 from '../assets/images/preview/DMBP125.png'
+import DMB13 from '../assets/images/thumbnails/EP13.png'
+import DMBP13 from '../assets/images/preview/DMB13P.png'
 
 
 
@@ -182,6 +184,16 @@ const DMB = [
     backgroundImage: DMBP125,
     seriesLogo: DMBLogo,
     description: 'Nuestros heroes siguen su meta de conseguir las esferas sagradas. Pero se encontrarán con viejos y nuevos retos en su camino al siguiente destino...',
+  },
+  {
+    id: 16,
+    section: 'DMB',
+    title: 'Episodio 13 : La Torre Sagrada',
+    thumbnailUrl: DMB13,
+    webUrl: 'https://www.youtube.com/embed/q8H8WdX04tM', // Add the episode URL
+    backgroundImage: DMBP13,
+    seriesLogo: DMBLogo,
+    description: '¡Johnny está en peligro! Separado del grupo, Toad tropieza con una persona familiar. Mientras tanto, los errores del pasado asechan a Mario, y nuestros heroes se enfrentan a un dilema que pondrá a prueba su lealtad. ¿Hasta dónde están dispuestos a llegar por las esferas sagradas?',
   },
   ];
 

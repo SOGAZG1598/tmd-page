@@ -34,6 +34,8 @@ import DMBP12 from '../assets/images/preview/DMBP12.png'
 import DMBP85 from '../assets/images/preview/DMBP8.5.png'
 import DMBP105 from '../assets/images/preview/DMBP10.5.png'
 import DMBP125 from '../assets/images/preview/DMBP125.png'
+import DMB13 from '../assets/images/thumbnails/EP13.png'
+import DMBP13 from '../assets/images/preview/DMB13P.png'
 
 import LB1 from '../assets/images/thumbnails/LB1.jpg'
 import LB2 from '../assets/images/thumbnails/LB2.jpg'
@@ -160,11 +162,36 @@ import PD6T from '../assets/images/thumbnails/PD6T.jpg'
 import PD7 from '../assets/images/thumbnails/PD7.png'
 import PDP7 from '../assets/images/preview/PDP7.png'
 import Creepy5T from '../assets/images/thumbnails/Creepy5T.jpg'
-
+import Creepys6 from '../assets/images/thumbnails/Creepy6.png'
+import CreepyP6 from '../assets/images/preview/CreepyP6.png'
+import DMB12TP from '../assets/images/preview/LOPDMB12T.png'
+import DMB12T from '../assets/images/thumbnails/LOPDMB12T.jpg'
+import DMB13TP from '../assets/images/preview/DMB13TP.png'
+import DMB13T from '../assets/images/thumbnails/DMBEP13TT.png'
+import JAT1 from '../assets/images/thumbnails/JAH1.png'
+import JAP1T from '../assets/images/preview/JAH1P.png'
+import JAT2 from '../assets/images/thumbnails/JAH2.png'
+import JAP2T from '../assets/images/preview/JAH2P.png'
+import PD8 from '../assets/images/thumbnails/PD8.png'
+import PDP8 from '../assets/images/preview/PD8.png'
+import PD7T from '../assets/images/thumbnails/PD7T.png'
+import PD7TP from '../assets/images/thumbnails/PD7T.png'
+import PD8T from '../assets/images/thumbnails/PD8T.png'
+import ENTRETT from '../assets/images/thumbnails/ENTRETT.png'
+import JATR from '../assets/images/thumbnails/JAT.png'
+import LBTPDT2 from '../assets/images/thumbnails/LBTPDTT.png'
+import DOM from '../assets/images/thumbnails/DOMINO.jpg'
+import DMBR from '../assets/images/thumbnails/DMBR.jpg'
+import TMDT from '../assets/images/thumbnails/TMD.jpg'
+import PCA from '../assets/images/thumbnails/PYA.jpg'
+import ENTRET from '../assets/images/thumbnails/ENTRET.png'
+import ENTREP from '../assets/images/preview/ENTREP.png'
 
 
 const episodes = [
+  /*
   {
+    
     id: 1,
     section: 'DMB',
     title: 'Episodio 1 : Un Nuevo Plan',
@@ -313,6 +340,16 @@ const episodes = [
     backgroundImage: DMBP125,
     seriesLogo: DMBLogo,
     description: 'Nuestros heroes siguen su meta de conseguir las esferas sagradas. Pero se encontrarán con viejos y nuevos retos en su camino al siguiente destino...',
+  },
+  {
+    id: 16,
+    section: 'DMB',
+    title: 'Episodio 13 : La Torre Sagrada',
+    thumbnailUrl: DMB13,
+    webUrl: 'https://www.youtube.com/embed/q8H8WdX04tM', // Add the episode URL
+    backgroundImage: DMBP13,
+    seriesLogo: DMBLogo,
+    description: '¡Johnny está en peligro! Separado del grupo, Toad tropieza con una persona familiar. Mientras tanto, los errores del pasado asechan a Mario, y nuestros heroes se enfrentan a un dilema que pondrá a prueba su lealtad. ¿Hasta dónde están dispuestos a llegar por las esferas sagradas?',
   },
   {
     id: 1,
@@ -644,6 +681,16 @@ const episodes = [
         description: 'Bienvenidos al especial de Halloween!! Aquí se mostrarán 2 Creepypastas hechos por la comunidad: Mira atrás de tí por Juan Andrés Briceño:  juanandr3sbricen0  / Marlo por Viche Mimi: https://www.facebook.com/profile.php?...',
       },
       {
+        id: 6,
+        section: 'Creepy',
+        title: 'LegoBob || ¿Te Parece Divertido?',
+        thumbnailUrl: Creepys6,
+        webUrl: 'https://www.youtube.com/embed/Lu_9HJBovso', // Add the episode URL
+        backgroundImage: CreepyP6,
+        seriesLogo: CreepyLogo,
+        description: 'Despues de cobrar venganza contra Rodrigo, LegoBob regresa a terminar con lo que empezó. ¿Logrará Burro resolver este gran misterio a tiempo? \n Este video está basado en la Creepypasta hecha por Rodrigo TheMarioDimension. No es parte del canon de LegoBob ni Dúper Mario Bros.',
+      },
+      {
         id: 1,
         section: 'PD',
         title: 'Preguntas Dimensionales #1',
@@ -813,6 +860,27 @@ const episodes = [
         seriesLogo: JALogo,
         description: 'Volvemos a intentarlo, ahora con muuucho menos lag, y aparte, estamos acompañados por el señor profesor Dr. Drew Pea Cock! Digo la Chingada.',
       },
+
+      {
+        id: 1,
+        section: 'Jueguemos2',
+        title: 'Jueguemos a: Minecraft Hardcore Parte 1',
+        thumbnailUrl: JAT1,
+        webUrl: 'https://www.youtube.com/embed/7Q4ek7X8QeQ', // Add the episode URL
+        backgroundImage: JAP1T,
+        seriesLogo: JALogo,
+        description: 'Iniciamos con esta madre!',
+      },
+      {
+        id: 2,
+        section: 'Jueguemos2',
+        title: 'Jueguemos a: Minecraft Hardcore Parte 2',
+        thumbnailUrl: JAT2,
+        webUrl: 'https://www.youtube.com/embed/v9ELzficyFc', // Add the episode URL
+        backgroundImage: JAP2T,
+        seriesLogo: JALogo,
+        description: 'Seguimos con esta madre!',
+      },
       {
         id: 1,
         section: 'Extra',
@@ -960,6 +1028,174 @@ const episodes = [
         seriesLogo: DMBLogo,
         description: 'Mario y los demás se preparan para su siguiente reto. No se pierdan este año LA OTRA PARTE DE Dúper Mario Bros - Episodio 12...',
       },
+      {
+        id: 4,
+        section: 'Trailers',
+        title: 'Trailer - LA OTRA PARTE DE Dúper Mario Bros - Episodio 12',
+        thumbnailUrl: DMB12T,
+        webUrl: 'https://www.youtube.com/embed/_diKznt3v34', // Add the episode URL
+        backgroundImage: DMB12TP,
+        seriesLogo: DMBLogo,
+        description: 'Proximemente',
+      },
+      
+      {
+        id: 5,
+        section: 'Trailers',
+        title: 'Dúper Mario Bros - Episodio 13 || Trailer',
+        thumbnailUrl: DMB13T,
+        webUrl: 'https://www.youtube.com/embed/q8H8WdX04tM', // Add the episode URL
+        backgroundImage: DMB13TP,
+        seriesLogo: DMBLogo,
+        description: 'Proximemente',
+      },
+
+      {
+        id: 3,
+        section: 'Extra',
+        title: '¿Qué pasó con TheMarioDimension2',
+        thumbnailUrl: QPTMD2,
+        webUrl: 'https://www.youtube.com/embed/0gcJCRUKAYcqIYzv', // Add the episode URL
+        backgroundImage: QPTMD2,
+        seriesLogo: TMDLOGO,
+        description: 'Gracias a los que me apoyaron este año. Vamos a tratar de recuperar un poco de lo perdido. Cualquier novedad o información se las compartiré por aquí.',
+      },
+      {
+        id: 4,
+        section: 'Extra',
+        title: 'El Regreso',
+        thumbnailUrl: REGRESO,
+        webUrl: 'https://www.youtube.com/embed/0gcJCRUKAYcqIYzv', // Add the episode URL
+        backgroundImage: REGRESO,
+        seriesLogo: TMDLOGO,
+        description: 'Hora del comeback! No se pierdan cual es el plan para regresar y mejor que nunca...',
+      },
+      */
+      {
+        id: 8,
+        section: 'PD',
+        title: 'Preguntas Dimensionales #8 || El Adios de Ezlo',
+        thumbnailUrl: PD8,
+        webUrl: 'https://www.youtube.com/embed/hqdeVZ3IZO8', // Add the episode URL
+        backgroundImage: PDP8,
+        seriesLogo: PDLogo,
+        description: 'Link y Ezlo regresan a darnos las respuestas a todas sus preguntas! Solo que en esta ocasión, Ezlo tiene una noticia muy importante que compartir.',
+      },
+      {
+        id: 16,
+        section: 'DMB',
+        title: 'Episodio 13 : La Torre Sagrada',
+        thumbnailUrl: DMB13,
+        webUrl: 'https://www.youtube.com/embed/q8H8WdX04tM', // Add the episode URL
+        backgroundImage: DMBP13,
+        seriesLogo: DMBLogo,
+        description: '¡Johnny está en peligro! Separado del grupo, Toad tropieza con una persona familiar. Mientras tanto, los errores del pasado asechan a Mario, y nuestros heroes se enfrentan a un dilema que pondrá a prueba su lealtad. ¿Hasta dónde están dispuestos a llegar por las esferas sagradas?',
+      },
+      /*
+      {
+        id: 8,
+        section: 'Lost',
+        title: 'Teaser - Preguntas Dimensionales #7',
+        thumbnailUrl: PD7T,
+        webUrl: 'https://www.youtube.com/embed/lTcgm2u0dDk', // Add the episode URL
+        backgroundImage: PD7TP,
+        seriesLogo: PDLogo,
+        description: 'Si ves esto eres cool.',
+      },
+      {
+        id: 9,
+        section: 'Lost',
+        title: 'EL REGRESO || PROXIMAMENTE',
+        thumbnailUrl: ENTRETT,
+        webUrl: 'https://www.youtube.com/embed/ylEsY96JSug', // Add the episode URL
+        backgroundImage: ENTRETT,
+        seriesLogo: TMDLOGO,
+        description: 'Rodrigo regresa a contarnos su versión. Desde sus inicios en YouTube, hasta lo que ha estado haciendo estos últimos años. Esperen la entrevista proximamente!! Esto se logró gracias a todos ustedes!!',
+      },
+      {
+        id: 10,
+        section: 'Lost',
+        title: 'Teaser - Preguntas Dimensionales #8',
+        thumbnailUrl: PD8T,
+        webUrl: 'https://www.youtube.com/embed/ky46r3O4BGM', // Add the episode URL
+        backgroundImage: PD8T,
+        seriesLogo: PDLogo,
+        description: 'Si lees esto eres chido.',
+      },
+      {
+        id: 11,
+        section: 'Lost',
+        title: 'Trailer Jueguemos a...',
+        thumbnailUrl: JATR,
+        webUrl: 'https://www.youtube.com/embed/-ILKPBGIeFE', // Add the episode URL
+        backgroundImage: JATR,
+        seriesLogo: JALogo,
+        description: 'Si ves esto escribe "pollo" en los comentarios...',
+      },
+      {
+        id: 12,
+        section: 'Lost',
+        title: 'Teaser - ¿Te Parece Divertido?',
+        thumbnailUrl: LBTPDT2,
+        webUrl: 'https://www.youtube.com/embed/Qm45_7HChKM', // Add the episode URL
+        backgroundImage: LBTPDT2,
+        seriesLogo: CreepyLogo,
+        description: 'Algo aterrador se acerca...',
+      },
+      {
+        id: 2,
+        section: 'Lost',
+        title: '29 de Febrero...wiiiii!',
+        thumbnailUrl: DOM,
+        webUrl: 'https://www.youtube.com/embed/Ety6CbFc8g0', // Add the episode URL
+        backgroundImage: DOM,
+        seriesLogo: TMDLOGO,
+        description: 'Veamos si mi cuenta dura para el 29 de Febrero de 2016! :D',
+      },
+      
+     
+      {
+        id: 7,
+        section: 'Extra',
+        title: 'dúper mario',
+        thumbnailUrl: DMBR,
+        webUrl: 'https://www.youtube.com/embed/mFPcrhUzaBU', // Add the episode URL
+        backgroundImage: DMBR,
+        seriesLogo: TMDLOGO,
+        description: '',
+      },
+      */
+      {
+        id: 8,
+        section: 'Extra',
+        title: 'TheMarioDimension',
+        thumbnailUrl: TMDT,
+        webUrl: 'https://www.youtube.com/embed/Z1p8sNJfG1g', // Add the episode URL
+        backgroundImage: TMDT,
+        seriesLogo: TMDLOGO,
+        description: 'Hey:)',
+      },
+      {
+        id: 9,
+        section: 'Extra',
+        title: 'Proyectos y Animaciones de TheMarioDimension que nunca salieron',
+        thumbnailUrl: PCA,
+        webUrl: 'https://www.youtube.com/embed/k8_VZUUEIlg', // Add the episode URL
+        backgroundImage: PCA,
+        seriesLogo: TMDLOGO,
+        description: 'Hola amigos:) el día de hoy les quiero compartir algunos trabajos y material del pasado que encontré entre mis archivos y que nunca llegué a terminar o siquiera sacar a la luz.',
+      },
+      {
+        id: 6,
+        section: 'Extra',
+        title: 'El Regreso de TheMarioDimension - Entrevista Completa',
+        thumbnailUrl: ENTRET,
+        webUrl: 'https://www.youtube.com/embed/zrxr8-TJXP0', // Add the episode URL
+        backgroundImage: ENTREP,
+        seriesLogo: TMDLOGO,
+        description: 'El regreso de TheMarioDimension. Despues de 11 años, Rodrigo regresa a platicarnos no solo de su estado actual, sino tambien de su trayectoria en YouTube.',
+      },
+      
 ];
 
 export default episodes;

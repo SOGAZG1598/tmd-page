@@ -12,6 +12,8 @@ import PDP5 from '../assets/images/preview/PDP5.png'
 import PDP6 from '../assets/images/preview/PDP6.png'
 import PD7 from '../assets/images/thumbnails/PD7.png'
 import PDP7 from '../assets/images/preview/PDP7.png'
+import PD8 from '../assets/images/thumbnails/PD8.png'
+import PDP8 from '../assets/images/preview/PD8.png'
 import PDLogo from '../assets/images/logo/LogoPD.png'
 
 const PD = [
@@ -85,7 +87,16 @@ const PD = [
     seriesLogo: PDLogo,
     description: 'Visuales (Ezlo):  @TomySiete',
   },
-    
+  {
+    id: 8,
+    section: 'PD',
+    title: 'Preguntas Dimensionales #8 || El Adios de Ezlo',
+    thumbnailUrl: PD8,
+    webUrl: 'https://www.youtube.com/embed/hqdeVZ3IZO8', // Add the episode URL
+    backgroundImage: PDP8,
+    seriesLogo: PDLogo,
+    description: 'Link y Ezlo regresan a darnos las respuestas a todas sus preguntas! Solo que en esta ocasión, Ezlo tiene una noticia muy importante que compartir. En este video hay información importante del episodio 13 y de otros episodios tambien... Gracias a todos por enviar sus preguntas. Como pueden ver, estos videos se van haciendo cada vez más grandes en duración. Puede que este sea el último video de preguntas en este formato. Espero lo disfruten y nos vemos proximamente!!',
+  },
   ];
 
   export default PD;

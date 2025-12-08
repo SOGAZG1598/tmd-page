@@ -21,8 +21,8 @@ const Footer = () => {
           {/* YouTube Channels */}
           <p>Canales de YouTube:</p>
           <ul>
-            <li><a href="https://www.youtube.com/@TheMarioDimension">TheMarioDimension</a></li>
-            <li><a href="https://www.youtube.com/@TheMarioDimension2">TheMarioDimension2</a></li>
+            <li><a style={{textDecoration: "none", color: 'white'}} href="https://www.youtube.com/@TheZeldaDimension">TheZeldaDimension</a></li>
+            <li><a style={{textDecoration: "none", color: 'white'}} href="https://www.youtube.com/@TMD2.0">TMD2</a></li>
           </ul>
         </div>
         <div className="footer-column2">

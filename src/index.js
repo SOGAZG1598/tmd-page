@@ -20,6 +20,7 @@ import PD from "./data/PD.js";
 import Lost from "./data/lost.js";
 import Trailers from "./data/trailers.js";
 import Jueguemos from "./data/Jueguemos.js";
+import Jueguemos2 from "./data/Jueguemos2.js";
 import Extras from "./data/extra.js";
 import New from "./data/New.js";
 import Next from "./data/Next.js";
@@ -44,6 +45,7 @@ ReactDOM.render(
       <Route path="/videos/Creepy/:episodeId" element={<VideoPlayer episodesData={Creepys} />} />
       <Route path="/videos/PD/:episodeId" element={<VideoPlayer episodesData={PD} />} />
       <Route path="/videos/Jueguemos/:episodeId" element={<VideoPlayer episodesData={Jueguemos} />} />
+      <Route path="/videos/Jueguemos2/:episodeId" element={<VideoPlayer episodesData={Jueguemos2} />} />
       <Route path="/videos/Extra/:episodeId" element={<VideoPlayer episodesData={Extras} />} />
       <Route path="/videos/Lost/:episodeId" element={<VideoPlayer episodesData={Lost} />} />
       <Route path="/videos/Trailers/:episodeId" element={<VideoPlayer episodesData={Trailers} />} />

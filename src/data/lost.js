@@ -10,7 +10,13 @@ import S20001P from '../assets/images/preview/2000S1P.png'
 import PD6T from '../assets/images/thumbnails/PD6T.jpg'
 import PDLogo from '../assets/images/logo/LogoPD.png'
 import Creepy5T from '../assets/images/thumbnails/Creepy5T.jpg'
-
+import PD7T from '../assets/images/thumbnails/PD7T.png'
+import PD7TP from '../assets/images/thumbnails/PD7T.png'
+import PD8T from '../assets/images/thumbnails/PD8T.png'
+import ENTRETT from '../assets/images/thumbnails/ENTRETT.png'
+import JATR from '../assets/images/thumbnails/JAT.png'
+import LBTPDT2 from '../assets/images/thumbnails/LBTPDTT.png'
+import DOM from '../assets/images/thumbnails/DOMINO.jpg'
 
 
 import TMDLOGO from '../assets/images/logo/logotmd.jpg'
@@ -29,6 +35,16 @@ const Lost = [
       {
         id: 2,
         section: 'Lost',
+        title: '29 de Febrero...wiiiii!',
+        thumbnailUrl: DOM,
+        webUrl: 'https://www.youtube.com/embed/Ety6CbFc8g0', // Add the episode URL
+        backgroundImage: DOM,
+        seriesLogo: TMDLOGO,
+        description: 'Veamos si mi cuenta dura para el 29 de Febrero de 2016! :D',
+      },
+      {
+        id: 3,
+        section: 'Lost',
         title: '¿Qué Pasó con LegoBob?',
         thumbnailUrl: QPCLBT,
         webUrl: 'https://www.youtube.com/embed/_2RTvKCSQ3A', // Add the episode URL
@@ -37,7 +53,7 @@ const Lost = [
         description: '???',
       },
       {
-        id: 3,
+        id: 4,
         section: 'Lost',
         title: 'Teaser - Duper Mario Bros Ep 8.5 (Escena Eliminada)',
         thumbnailUrl: DMB85T,
@@ -47,7 +63,7 @@ const Lost = [
         description: 'La escena sale el viernes 22 de Septiembre!!',
       },
       {
-        id: 4,
+        id: 5,
         section: 'Lost',
         title: 'Trailer Creepypasta - TheMarioDimension2',
         thumbnailUrl: Creepy5T,
@@ -57,7 +73,7 @@ const Lost = [
         description: '???',
       },
       {
-        id: 5,
+        id: 6,
         section: 'Lost',
         title: '(Trailer) Duper Mario Bros - Episodio 10.5',
         thumbnailUrl: DMB105T,
@@ -65,16 +81,6 @@ const Lost = [
         backgroundImage: DMB105T,
         seriesLogo: DMBLogo,
         description: 'Video deslistado en el canal',
-      },
-      {
-        id: 6,
-        section: 'Lost',
-        title: 'Teaser',
-        thumbnailUrl: S20001P,
-        webUrl: 'https://www.youtube.com/embed/j1zk--prg70', // Add the episode URL
-        backgroundImage: S20001P,
-        seriesLogo: TMDLOGO,
-        description: 'Este video si se dan cuenta fue subido mucho antes del primer video público en el canal. ¿Porqué será?',
       },
       {
         id: 7,
@@ -85,6 +91,56 @@ const Lost = [
         backgroundImage: PD6T,
         seriesLogo: PDLogo,
         description: 'Visuales (Ezlo):  @TomySiete',
+      },
+      {
+        id: 8,
+        section: 'Lost',
+        title: 'Teaser - Preguntas Dimensionales #7',
+        thumbnailUrl: PD7T,
+        webUrl: 'https://www.youtube.com/embed/lTcgm2u0dDk', // Add the episode URL
+        backgroundImage: PD7TP,
+        seriesLogo: PDLogo,
+        description: 'Si ves esto eres cool.',
+      },
+      {
+        id: 9,
+        section: 'Lost',
+        title: 'EL REGRESO || PROXIMAMENTE',
+        thumbnailUrl: ENTRETT,
+        webUrl: 'https://www.youtube.com/embed/ylEsY96JSug', // Add the episode URL
+        backgroundImage: ENTRETT,
+        seriesLogo: PDLogo,
+        description: 'Rodrigo regresa a contarnos su versión. Desde sus inicios en YouTube, hasta lo que ha estado haciendo estos últimos años. Esperen la entrevista proximamente!! Esto se logró gracias a todos ustedes!!',
+      },
+      {
+        id: 10,
+        section: 'Lost',
+        title: 'Teaser - Preguntas Dimensionales #8',
+        thumbnailUrl: PD8T,
+        webUrl: 'https://www.youtube.com/embed/ky46r3O4BGM', // Add the episode URL
+        backgroundImage: PD8T,
+        seriesLogo: PDLogo,
+        description: 'Si lees esto eres chido.',
+      },
+      {
+        id: 11,
+        section: 'Lost',
+        title: 'Trailer Jueguemos a...',
+        thumbnailUrl: JATR,
+        webUrl: 'https://www.youtube.com/embed/-ILKPBGIeFE', // Add the episode URL
+        backgroundImage: JATR,
+        seriesLogo: PDLogo,
+        description: 'Si ves esto escribe "pollo" en los comentarios...',
+      },
+      {
+        id: 12,
+        section: 'Lost',
+        title: 'Teaser - ¿Te Parece Divertido?',
+        thumbnailUrl: LBTPDT2,
+        webUrl: 'https://www.youtube.com/embed/Qm45_7HChKM', // Add the episode URL
+        backgroundImage: LBTPDT2,
+        seriesLogo: CreepyLogo,
+        description: 'Algo aterrador se acerca...',
       },
   ];
 

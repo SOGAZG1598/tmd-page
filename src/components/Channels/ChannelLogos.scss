@@ -3,6 +3,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
+    padding: 10px;
   }
   
   .logo-link {
@@ -17,12 +18,12 @@
   }
   
   .logo {
-    width: 800px;
-    height: 800px;
+    width: 700px;
+    height: 700px;
     /* Add any other styling you need for the logos */
   }
 
-  @media screen and (max-width:1430px) {
+  @media screen and (max-width:1000px) {
     .logo-container {
         display: flex;
         flex-direction: column; /* Stack images vertically */

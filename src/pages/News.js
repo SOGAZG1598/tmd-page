@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import Navbar from '../components/NavBar';
 import Footer from '../components/Footer';
-import Modal from '../components/News/Modal';
+import logodisc from '../assets/images/logo/disc.png'
 import './News.scss'; 
 
 const News = ( {articles} ) => {
@@ -17,16 +17,29 @@ const News = ( {articles} ) => {
     return(
         <div>
             <Navbar />
-            <div>
-            <h1>News</h1>
-            {reversedArticles.map((article, index) => (
-                <div key={index} className="news-article" onClick={() => handleArticleClick(article)}>
-                    <h2>{article.title}</h2>
-                    <p>{article.content.substring(0, 100)}...</p> {/* Display only the first 100 characters of the content */}
+            <div className="news">
+            <div className="image-container">
+            <a href="https://discord.gg/KWkEGwySbv"><img
+              src={logodisc}
+              alt=""
+              
+            /></a>
+      </div>
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081463517624663"
+     crossOrigin="anonymous"></script>
+            <iframe
+                id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="80%"
+                src="https://widget.tagembed.com/308963?website=1" >
+                </iframe>
+                <iframe
+                id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="80%"
+                src="https://widget.tagembed.com/308969?website=1" >
+                </iframe>
                 </div>
-            ))}
-            {selectedArticle && <Modal article={selectedArticle} onClose={() => setSelectedArticle(null)} />}
-            </div>
             <Footer />
         </div>
     )
