@@ -6,3 +6,13 @@
     width: 150%;
     margin-left: -25%;
 }
+
+.embed {
+    display: flex;
+    gap: "2px";
+}
+
+@media screen and (min-width:375px) and (max-width:653px){
+    .embed {
+        display: grid;
+    }
