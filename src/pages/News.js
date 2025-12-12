@@ -22,11 +22,15 @@ const News = ( {articles} ) => {
      crossOrigin="anonymous"></script>
             <div className="embed">
     <iframe src="https://widgets.sociablekit.com/twitter-feed/iframe/25632535"
+            id="inlineFrameExample"
+            title="Inline Frame Example"
             frameborder="0"
             width="1000px"
             height="1000px"></iframe>
 
     <iframe src="https://widgets.sociablekit.com/youtube-community/iframe/25632538"
+            id="inlineFrameExample"
+            title="Inline Frame Example"
             frameborder="0"
             width="1000px"
             height="100%"></iframe>
