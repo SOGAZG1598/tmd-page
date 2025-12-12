@@ -20,18 +20,17 @@ const News = ( {articles} ) => {
       </div>
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3081463517624663"
      crossOrigin="anonymous"></script>
-            <iframe
-                id="inlineFrameExample"
-                title="Inline Frame Example"
-                width="80%"
-                src="https://widget.tagembed.com/308963?website=1" >
-                </iframe>
-                <iframe
-                id="inlineFrameExample"
-                title="Inline Frame Example"
-                width="80%"
-                src="https://widget.tagembed.com/308969?website=1" >
-                </iframe>
+            <div className="embed">
+    <iframe src="https://widgets.sociablekit.com/twitter-feed/iframe/25632535"
+            frameborder="0"
+            width="1000px"
+            height="1000px"></iframe>
+
+    <iframe src="https://widgets.sociablekit.com/youtube-community/iframe/25632538"
+            frameborder="0"
+            width="1000px"
+            height="100%"></iframe>
+</div>  
                 </div>
             <Footer />
         </div>
